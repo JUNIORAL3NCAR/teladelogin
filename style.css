@@ -1,0 +1,78 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(imagens/ChatGPT\ Image\ 27_12_2025\,\ 19_06_14.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form > h1{
+    font-size: 25px;
+    font-family: monospace;
+    text-transform: uppercase;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+form > p{
+    font-size: 15px;
+    font-family: monospace;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.login{
+    margin: auto;
+    width: 450px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 119, 255, 0.164);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 15px;
+}
+.login form{
+    width: 80%;
+
+}
+.login input {
+    width: 250px;
+    display: flex; 
+    flex-direction: column; 
+    margin-bottom: 12px;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+}
+.login label{
+    margin-bottom: 4px;
+    font-weight: 500;
+}
+button{
+    width: 100px;
+    margin: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: rgba(0, 0, 255, 0.281);
+    color: white;
+}
+form a {
+    text-decoration: none;
+    color: rgba(0, 0, 255, 0.603);
+}
+form a:hover{
+    text-decoration: underline;
+    color:  rgba(0, 0, 255, 0.281);
+}
