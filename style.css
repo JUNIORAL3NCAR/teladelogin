@@ -3,6 +3,58 @@
     margin: 0;
     padding: 0;
 }
+
+@media (max-width: 768px) {
+
+body{
+        padding: 20px;
+    }
+
+.login{
+        width: 100%;
+        max-width: 360px;
+        height: auto;
+        padding: 25px 15px;
+    }
+
+.login form{
+        width: 100%;
+    }
+
+form > h1{
+        font-size: 20px;
+        text-align: center;
+    }
+
+form > p{
+        font-size: 13px;
+        text-align: center;
+    }
+
+.login input{
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+.login label{
+        font-size: 13px;
+    }
+
+button{
+        width: 100%;
+        margin: 15px 0;
+        font-size: 14px;
+    }
+
+form a{
+        font-size: 13px;
+        text-align: center;
+        display: block;
+    }
+}
+
+
 body{
     min-width: 100vw;
     min-height: 100vh;
